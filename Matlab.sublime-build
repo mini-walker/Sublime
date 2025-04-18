@@ -1,0 +1,25 @@
+{
+    "selector": "source.matlab",
+    "shell": true,
+
+    "windows": {
+        "cmd": ["D:/Program Files/MATLAB/R2024a/bin/matlab.exe", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
+    },
+    // "windows": {
+    //     "cmd": ["matlab", "-nodesktop", "-nosplash", "-r", "$file_base_name"]
+    // },
+    // "osx": {
+    //     "cmd": ["matlab", "-nodisplay", "-nosplash", "-r", "$file_base_name"]
+    // },
+    // "linux": {
+    //     "cmd": ["matlab", "-nodisplay", "-nosplash", "-r", "$file_base_name"]
+    // }
+
+    "working_dir": "${project_path:${folder}}"
+}
+
+// {
+//     "cmd": ["D:/Program Files/MATLAB/R2024a/bin/matlab.exe", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
+//     "selector":"source.m",
+//     "working_dir": "${project_path:${folder}}"
+// }

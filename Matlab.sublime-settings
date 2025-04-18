@@ -1,5 +1,8 @@
 {
-	"cmd": ["D:/Program Files/MATLAB/R2024a/bin/matlab.exe", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
-	"selector":"source.m",
-	"working_dir": "${project_path:${folder}}"
+	"extensions":
+	[
+		"m"
+	],
+	"fallback_encoding": "Western (Windows 1252)",
+	"default_encoding": "Western (Windows 1252)"
 }
