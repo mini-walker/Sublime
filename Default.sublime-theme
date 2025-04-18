@@ -1,0 +1,13 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"font_size": 13,
+        "font_face": "Courier New"
+	},
+	"rules":
+	[
+		"font_size": 13,
+        "font_face": "Courier New"
+	]
+}

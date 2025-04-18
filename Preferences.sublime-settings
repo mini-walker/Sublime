@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Agila Theme/Agila Origin Oceanic Next.tmTheme",
+	"theme": "Default.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+
+	"font_face": "Courier New",
+	"font_size": 9.6,
+	"preview_on_click": false,
+}
